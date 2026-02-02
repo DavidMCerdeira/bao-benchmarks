@@ -17,15 +17,11 @@
 #include <stdio.h>
 #include <bao.h>
 
-#define SMCC64_BIT              (0x40000000)
-#define SMCC32_FID_VND_HYP_SRVC (0x86000000)
-#define SMCC64_FID_VND_HYP_SRVC (SMCC32_FID_VND_HYP_SRVC | SMCC64_BIT)
-
 void main(void){
 
     printf("Bao bare-metal irq-lat WCE 2\n");
 
     while(1) {
-        bao_hypercall(BAO_YIELD_HYPCALL_ID | SMCC64_FID_VND_HYP_SRVC);
+        bao_hypercall(BAO_YIELD_HYPCALL_ID);
     }
 }
