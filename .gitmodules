@@ -1,0 +1,6 @@
+[submodule "src/bao-hypervisor"]
+	path = src/bao-hypervisor
+	url = git@github.com:DavidMCerdeira/bao-hypervisor.git
+[submodule "src/baremetal-runtime"]
+	path = src/baremetal-runtime
+	url = git@github.com:DavidMCerdeira/bao-baremetal-guest.git
