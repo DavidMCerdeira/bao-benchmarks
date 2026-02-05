@@ -1,0 +1,35 @@
+/home/daniel/workspace/osyxtech/bao-benchmarks/src/irq-lat-wce/irq-lat-wce-guest1/build/irq-lat-wce-guest1/external//home/daniel/workspace/osyxtech/bao-benchmarks/src/baremetal-runtime//src/core/virtio_console.o: \
+ /home/daniel/workspace/osyxtech/bao-benchmarks/src/baremetal-runtime//src/core/virtio_console.c \
+ /home/daniel/workspace/osyxtech/bao-benchmarks/src/baremetal-runtime//src/core/inc/virtio_console.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdint.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+ /home/daniel/workspace/osyxtech/bao-benchmarks/src/baremetal-runtime/src/arch/armv8//aarch32/inc/spinlock.h \
+ /home/daniel/workspace/osyxtech/bao-benchmarks/src/baremetal-runtime//src/core/inc/virtio.h \
+ /home/daniel/workspace/osyxtech/bao-benchmarks/src/baremetal-runtime//src/core/inc/virtio_queue.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/assert.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/newlib.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdbool.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdio.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+ /home/daniel/workspace/osyxtech/bao-benchmarks/src/baremetal-runtime//src/core/inc/virtio_memory_pool.h \
+ /home/daniel/workspace/osyxtech/bao-benchmarks/src/baremetal-runtime//src/core/inc/virtio_mmio.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/string.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/strings.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/string.h

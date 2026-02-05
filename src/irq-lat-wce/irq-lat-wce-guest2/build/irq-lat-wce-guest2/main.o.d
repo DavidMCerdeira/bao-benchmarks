@@ -1,0 +1,21 @@
+/home/daniel/workspace/osyxtech/bao-benchmarks/src/irq-lat-wce/irq-lat-wce-guest2/build/irq-lat-wce-guest2/main.o: \
+ /home/daniel/workspace/osyxtech/bao-benchmarks/src/irq-lat-wce/irq-lat-wce-guest2/main.c \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/stdio.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/newlib.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/config.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/features.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdarg.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/_ansi.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+ /home/daniel/toolchains/arm/arm-gnu-toolchain-14.2.rel1-x86_64-arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+ /home/daniel/workspace/osyxtech/bao-benchmarks/src/baremetal-runtime//src/core/inc/bao.h \
+ /home/daniel/workspace/osyxtech/bao-benchmarks/src/baremetal-runtime/src/arch/armv8//aarch32/inc/arch/bao.h

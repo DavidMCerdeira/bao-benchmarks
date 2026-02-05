@@ -42,19 +42,37 @@ void timer_handler(unsigned int id){
         c--;
         timer_set(TIMER_INTERVAL);
     }
+    else {
+        irq_disable(TIMER_IRQ_ID);
+    }
+}
+
+void test_freq(uint64_t seconds, int it)
+{
+    //check timer freq is correct. loop for 10 seconds
+    for (int i = 0; i < it; i++) {
+        uint64_t start = timer_get();
+        while((timer_get() - start) < TIME_S(seconds));
+        printf("Time stamp %d\n", i+1);
+    }
 }
 
 void main(void){
 
-    printf("Bao bare-meta irq-lat 1\n");
+    printf("Bao bare-metal irq-lat 1\n");
+
+    //test_freq(10, 3);
 
     timer_enable();
     irq_set_handler(TIMER_IRQ_ID, timer_handler);
-    irq_enable(TIMER_IRQ_ID);
     timer_set(TIMER_INTERVAL);
-    while(c){ }
+    irq_enable(TIMER_IRQ_ID);
+    irq_set_prio(TIMER_IRQ_ID, IRQ_MAX_PRIO);
+    while(c){
+        wfi();
+    }
 
-    printf("IRQ latency:\t%u\n", irq_lat);
+    printf("IRQ latency:\t%u\n", (unsigned long)irq_lat);
     printf("finished\n");
     while(1)
         wfi();
