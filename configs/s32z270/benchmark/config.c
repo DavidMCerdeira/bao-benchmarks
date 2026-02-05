@@ -14,7 +14,7 @@ struct config config = {
     .shmemlist = (struct shmem[]) {
         [0] = {
             .base = 0x32400000,
-            .size = 0x00010000,
+            .size = 0x100,
         }
     },
     /**
@@ -40,7 +40,7 @@ struct config config = {
                 .ipcs = (struct ipc[]) {
                     {
                         .base = 0x32400000,
-                        .size = 0x00010000,
+                        .size = 0x100,
                         .shmem_id = 0,
                         .interrupt_num = 1,
                         .interrupts = (irqid_t[]) {52}
@@ -99,7 +99,7 @@ struct config config = {
                 .ipcs = (struct ipc[]) {
                     {
                         .base = 0x32400000,
-                        .size = 0x00010000,
+                        .size = 0x100,
                         .shmem_id = 0,
                         .interrupt_num = 1,
                         .interrupts = (irqid_t[]) {52}
