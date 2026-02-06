@@ -14,11 +14,18 @@ APP_SRC_DIR?=$(ROOT_DIR)
 include $(APP_SRC_DIR)/sources.mk
 C_SRC+=$(addprefix $(APP_SRC_DIR)/, $(src_c_srcs))
 
-INIT_SRC_DIR?=$(BENCHMARKS_ROOT)/configs/$(PLATFORM)/benchmark/init
-include $(INIT_SRC_DIR)/sources.mk
-C_SRC+=$(addprefix $(INIT_SRC_DIR)/, $(init_src_c_srcs))
-INIT_INC_DIR := $(shell find "$(INIT_SRC_DIR)" -type d -print)
-INC_DIRS += $(INIT_INC_DIR)
+bench_helper_src_dir?=$(bench_helper_dir)/$(PLATFORM)
+include $(bench_helper_src_dir)/sources.mk
+C_SRC+=$(addprefix $(bench_helper_dir)/, $(bench_helpers_src_c_srcs))
+ASM_SRC+=$(addprefix $(bench_helper_dir)/, $(bench_helpers_src_s_srcs))
+HELPERS_INC_DIR := $(shell find "$(bench_helper_src_dir)" -type d -print)
+INC_DIRS += $(HELPERS_INC_DIR)
+
+BSP_SRC_DIR?=$(BENCHMARKS_ROOT)/configs/$(PLATFORM)/benchmark/bsp
+include $(BSP_SRC_DIR)/sources.mk
+C_SRC+=$(addprefix $(BSP_SRC_DIR)/, $(bsp_src_c_srcs))
+BSP_INC_DIR := $(shell find "$(BSP_SRC_DIR)" -type d -print)
+INC_DIRS += $(BSP_INC_DIR)
 
 # Include the final baremetal-runtime build
 include $(bmrt_dir)/build.mk
